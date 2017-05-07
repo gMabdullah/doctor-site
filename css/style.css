@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+html, body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	background-color: #f3f3f3;
+}
+a {
+	text-decoration: none;
+}
+a:hover, a:focus {
+	cursor: pointer;
+	text-decoration: none;
+}
+.pd-b20 {
+	padding-bottom: 20px;
+}
+.pd-t30 {
+	padding-top: 30px;
+}
+.pd-t80 {
+	padding-top: 80px;
+} 
+.pd-b50 {
+	padding-bottom: 50px;
+}
+.bg-white {
+	background-color: #fff;
+}
+.col-centered{
+	float: none;
+	margin: 0 auto;
+}
+/*
+	Navbar Bottom
+	-------------
+*/
+.navbar-bottom {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+.navbar-bottom h3 {
+	font-size: 36px;
+	color: #0078ff;
+	margin-bottom: 15px;
+}
+.navbar-bottom p {
+	font-weight: 300;
+	font-size: 14px;
+	color: #393939;
+	letter-spacing: 1px;
+}
+/*
+	Blog-Content
+	------------
+*/
+.blog-content {
+	background-color: #fff;
+	overflow: hidden;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.blog-group-member h5 {
+	font-size: 24px;
+	color: #0078ff;
+	margin-bottom: 20px;
+}
+.blog-group-member p {
+	color: #999999;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+.author-info {
+	color: #5e5e5e;
+	font-size: 14px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+.author-info .author-name {
+	color: #0078ff;
+	border-right: 2px solid #5e5e5e;
+	display: inline-block;
+	line-height: 15px;
+	padding: 0px 7px 0 5px ;
+}
+.author-info .author-date {
+	padding: 0px 7px 0 7px ;
+}
+.author-info .comment-info {
+	border-left: 2px solid #5e5e5e;
+	display: inline-block;
+	line-height: 15px;
+	padding: 0px 7px 0 5px ;
+}
+.read-btn {
+	border-radius: 0px;
+	font-size: 16px;
+	background-color: #ade209;
+	border-color: #ade209;
+    padding: 4px 12px;
+    color: #fff;
+}
+.pagination > li > a {
+	border-radius: 0;
+}
+.pagination > li > a:focus, .pagination > li > a:hover, .pagination > li > span:focus, .pagination > li > span:hover {
+    color: #fff;
+    background-color: #999999;
+    border-color: #999999;
+}
+.pagination > li:first-child > a {
+	border-radius: 0;
+	margin-right: 8px;
+	background-color: #834696;
+	color: #fff;
+	border-color: #834696;
+}
+.pagination > li:first-child > a:hover,
+.pagination > li:first-child > a:focus {
+	background-color: #fff;
+	color: #834696;
+}
+
+.pagination > li:last-child > a {
+	border-radius: 0;
+	margin-left: 8px;
+	background-color: #99ca3b;
+	color: #fff;
+	border-color: #99ca3b;
+}
+.pagination > li:last-child > a:hover,
+.pagination > li:last-child > a:focus {
+	background-color: #fff;
+	color: #99ca3b;
+}

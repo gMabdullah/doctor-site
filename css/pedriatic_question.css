@@ -1,0 +1,43 @@
+.ask-question-head {
+	background-color: #f5f5f5;
+	text-align: center;
+	padding: 40px 50px;
+}
+.ask-question-head h3 {
+	font-size: 32px;
+	color: #ff001e;
+}
+.ask-question-head p {
+	font-size: 16px;
+	color: #393939;
+}
+.doctor-info {
+	text-align: center;
+}
+.doctor-info .description {
+    margin-top: 35px;
+}
+.doctor-info .description .nameofDoctor {
+	font-size: 22px;
+	color: #999999;
+}
+.doctor-info .description .nameofDoctor span {
+	color: #0078ff;
+}
+.doctor-info .description p {
+	font-size: 14px;
+	color: #999999;
+}
+.askAquestionLink {
+	font-size: 18px;
+	border: 2px solid #ff001e;
+	text-transform: capitalize;
+	background-color: #ffffff;
+	color: #ff001e;
+	padding: 10px 20px;
+}
+.askAquestionLink:hover,
+.askAquestionLink:focus {
+	background-color: #ff001e;
+	color: #fff;
+}

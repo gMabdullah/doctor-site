@@ -1,0 +1,62 @@
+.custom-navbar {
+	background-color: #fff;
+	border-bottom: 0;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+.custom-navbar .navbar-brand img {
+	width: 80%;
+	padding-left: 70px;
+	margin-top: -7px;
+}
+.custom-navbar .custom-collapse {
+	padding-right: 70px;
+}
+.custom-navbar .navbar-nav li {
+	border-top-style: solid;
+	background-size: 100% 200%;
+	-webkit-transition: background-position 0.5s;
+    -moz-transition: background-position 0.5s;
+    transition: background-position 0.5s;
+
+}
+.custom-navbar .navbar-nav li:first-child {
+	border-top-color: #ff001e;
+    background-image: linear-gradient(to bottom, transparent 50%, #ff001e 50%);
+}
+.custom-navbar .navbar-nav li:nth-child(2) {
+	border-top-color: #99ca3b;
+	background-image: linear-gradient(to bottom, transparent 50%, #99ca3b 50%);
+}
+.custom-navbar .navbar-nav li:nth-child(3) {
+	border-top-color: #834696;
+	background-image: linear-gradient(to bottom, transparent 50%, #834696 50%);
+}
+.custom-navbar .navbar-nav li:nth-child(4) {
+	border-top-color: #0078ff;
+	background-image: linear-gradient(to bottom, transparent 50%, #0078ff 50%);
+}
+.custom-navbar .navbar-nav li:nth-child(5) {
+	border-top-color: #f88b02;
+	background-image: linear-gradient(to bottom, transparent 50%, #f88b02 50%);
+}
+.custom-navbar .navbar-nav li:last-child {
+	border-top-style: none;
+}
+.custom-navbar .navbar-nav li:last-child a {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	margin-top: 5px;
+}
+.custom-navbar .navbar-nav li:hover {
+	background-position: 0 -100%;
+}
+.custom-navbar .navbar-nav li:hover a {
+	color: #fff;
+}
+.custom-navbar .navbar-nav li a {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #999999;
+}

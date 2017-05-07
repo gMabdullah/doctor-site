@@ -1,0 +1,128 @@
+.nav-reveal a {
+	position: absolute;
+	top: 50%;
+	display: block;
+	outline: none;
+	text-align: left;
+	z-index: 1000;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.nav-slide .icon-wrap {
+	position: relative;
+	z-index: 100;
+	display: block;
+	padding: 20px;
+	background-color: #fff;
+}
+
+.nav-slide svg.icon {
+	fill: #34495e;
+}
+
+.svg-wrap {
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+}
+.nav-reveal a.prev {
+	left: 2%;
+}
+
+.nav-reveal a.next {
+	right: 2%;
+}
+.carousel-control.left,
+.carousel-control.right {
+	background-image: none;
+}
+.carousel-control {
+	opacity: 1;
+}
+.nav-reveal a {
+	overflow: hidden;
+	width: 40px;
+	height: 120px;
+	background-color: #fff;
+	-webkit-transition: width 0.4s, background-color 0.4s;
+	transition: width 0.4s, background-color 0.4s;
+	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.nav-reveal .icon-wrap {
+	position: absolute;
+	z-index: 100;
+	padding: 44px 4px;
+	width: 40px;
+}
+
+.nav-reveal a.prev .icon-wrap {
+	left: 0;
+}
+
+.nav-reveal a.next .icon-wrap {
+	right: 0;
+}
+
+.nav-reveal svg.icon {
+	fill: #999999;
+}
+
+.nav-reveal div {
+	position: absolute;
+	top: 0;
+	padding: 0 50px;
+	width: 400px;
+	height: 100%;
+}
+
+.nav-reveal a.prev div {
+	left: 0;
+	padding-right: 130px;
+	text-align: right;
+}
+
+.nav-reveal a.next div {
+	right: 0;
+	padding-left: 130px;
+}
+
+.nav-reveal h3 {
+	position: relative;
+	margin: 0;
+	padding: 13px 0 0;
+	font-weight: 400;
+	font-size: 18px;
+	color: #834696;
+}
+
+.nav-reveal div p {
+	display: block;
+	padding-top: 10px;
+	color: #999999;
+	letter-spacing: 1px;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.nav-reveal img {
+	position: absolute;
+	top: 10px;
+	height: 100px;
+}
+
+.nav-reveal a.prev img {
+	right: 10px;
+}
+
+.nav-reveal a.next img {
+	left: 10px;
+}
+
+.nav-reveal a:hover {
+	width: 400px;
+	background-color: #fff;
+}

@@ -1,0 +1,48 @@
+/* VIDEO */
+.video-blog {
+	background-color: #fff;
+	overflow: hidden;
+	padding-top: 50px;
+}
+.video-heading {
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.video-heading h3 {
+	font-size: 32px;
+	color: #9ac93b;
+}
+.video-heading p {
+	font-size: 16px;
+	color: #393939;
+	font-weight: 300;
+	word-spacing: 3px;
+}
+.custom-thumbnail .thumbnail {
+	border: 0;
+	background-color: transparent;
+}
+.custom-thumbnail .caption h3 {
+	font-size: 22px;
+	color: #0078ff;
+}
+.custom-thumbnail .caption p {
+	font-size: 14px;
+	color: #999999;
+}
+.video-pos {
+	position: relative;
+}
+.btn-pos {
+	position:absolute;
+   	top: 34%;
+	left: 41%;
+	z-index: 9999;
+	background-color: transparent;
+	border: none;
+}
+.bg-wht {
+	background-color: #fff !important;
+	border: 1px solid #b9b993 !important;
+	color: #b9b993;
+}

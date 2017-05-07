@@ -1,0 +1,150 @@
+.navbar-bottom-landing {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 55px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.navbar-bottom-landing h3 {
+	font-size: 32px;
+	color: #99ca3b;
+	margin-bottom: 15px;
+}
+.navbar-bottom-landing h3 span {
+	color: #834696;
+}
+.navbar-bottom-landing p {
+	font-weight: 300;
+	font-size: 14px;
+	color: #717171;
+	letter-spacing: 1px;
+	padding: 0 100px;
+	line-height: 1.6;
+}
+.blog-content .blog-heading {
+	text-align: center;
+	background-color: rgb(184, 145, 196);
+	padding: 0 0 8px;
+	margin-bottom: 40px;
+}
+.blog-content .blog-heading h3 {
+	color: #ffffff;
+	font-size: 32px;
+}
+.blog-content {
+	background-color: #bb99ff;
+	background-image: url(../images/banner2-p.png);
+	overflow: hidden;
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+.ladning-blog-group-member blockquote {
+	padding: 0px 20px;
+	margin: 0px 0px 20px;
+	font-size: 17.5px;
+	border-left: 5px solid #b890c4;
+}
+.ladning-blog-group-member h5 {
+	font-size: 22px;
+	color: #ffffff;
+	margin-bottom: 20px;
+}
+.ladning-blog-group-member p {
+	color: #f9f7fa;
+	font-size: 12px;
+	margin-bottom: 15px;
+	line-height: 1.8;
+}
+.ladning-blog-group-member .author-info {
+	color: #ffffff;
+	font-size: 12px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+.ladning-blog-group-member .author-info .author-name {
+	color: #ffffff;
+	border-right: 2px solid #ddd;
+	display: inline-block;
+	line-height: 15px;
+	padding: 0px 7px 0 5px ;
+}
+.ladning-blog-group-member .author-info .author-date {
+	padding: 0px 7px 0 7px ;
+}
+.ladning-blog-group-member .author-info .comment-info {
+	border-left: 2px solid #ddd;
+	display: inline-block;
+	line-height: 15px;
+	padding: 0px 7px 0 5px ;
+}
+/* BLOCK BUTTON*/
+.block-button {
+    border: 1px solid #FFF;
+	padding: 9px 33px 11px;
+	color: #FFF;
+	background-color: #9457A7;
+	border-radius: 0px;
+	font-size: 20px;
+}
+.block-button:hover,
+.block-button:focus {
+	background-color: #a171b0;
+	color: #fff;
+}
+.video-btn {
+	border: 1px solid #ddd;
+	padding: 9px 33px 11px;
+	color: #999999;
+	background-color: #fff;
+	border-radius: 0px;
+	font-size: 20px;
+}
+.video-btn:hover,
+.video-btn:focus {
+	background-color: #999999;
+	color: #fff;
+}
+
+/* VIDEO */
+.video-heading {
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.video-heading h3 {
+	font-size: 32px;
+	color: #9ac93b;
+}
+.video-heading p {
+	font-size: 16px;
+	color: #393939;
+	font-weight: 300;
+	word-spacing: 3px;
+}
+.custom-thumbnail .thumbnail {
+	border: 0;
+	background-color: transparent;
+}
+.custom-thumbnail .caption h3 {
+	font-size: 22px;
+	color: #0078ff;
+}
+.custom-thumbnail .caption p {
+	font-size: 14px;
+	color: #999999;
+}
+.video-pos {
+	position: relative;
+}
+.btn-pos {
+	position:absolute;
+   	top: 34%;
+	left: 41%;
+	z-index: 9999;
+	background-color: transparent;
+	border: none;
+}
+.bg-wht {
+	background-color: #fff !important;
+	border: 1px solid #b9b993 !important;
+	color: #b9b993;
+}

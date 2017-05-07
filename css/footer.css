@@ -1,0 +1,14 @@
+footer {
+	background-color: #9ac93b;
+	color: #e4f1cb;
+	padding: 20px 100px 15px;
+	overflow: hidden;
+}
+footer p {
+	font-size: 14px;
+	padding-top: 6px;
+	padding-bottom: 0px;
+}
+.follow-us {
+	margin-right: 20px;
+}
